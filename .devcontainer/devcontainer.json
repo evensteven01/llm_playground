@@ -1,0 +1,19 @@
+{
+    "name": "LLM Playground",
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            },
+            "extensions": [
+                "ms-python.python",
+                "Github.copilot",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}
